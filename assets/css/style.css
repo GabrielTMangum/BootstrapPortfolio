@@ -5,7 +5,6 @@ body {
   font-size: 100%;
   color: #777;
 }
-/* section content headers */
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: teal;
@@ -13,13 +12,15 @@ h1 {
   margin: 0;
   margin-bottom: 10px;
 }
-/* header, navbar, and name css editing */
 header {
   background-color: #fff;
   margin-bottom: 50px;
 }
 a{
   font-size: 24px;
+  color: #666;
+  margin: auto;
+  transition: all 1s;
 }
 h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -47,23 +48,12 @@ h2{
   margin: 0;
   color: white;
   font-size: 24px;
+  line-height: 75px;
 }
-.nav-link {
-  color: #777;
-  margin: auto;
-  transition: all 1s;
-}
-
-.nav-link:hover {
-  color: teal;
-  transform: scale(1.1);
-}
-
 .active {
   font-weight: bold;
   color: teal;
 }
-/* index.html styles */
 section {
   background-color: #fff;
 }
@@ -85,7 +75,28 @@ section {
 .message{
   height: 150px;
 }
-
+.work {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+  overflow: auto;
+  background-size: cover;
+}
+.work h4 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 12px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
 @media (max-width: 640px) {
   h3 {
       margin: 0;

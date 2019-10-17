@@ -68,7 +68,7 @@ section {
   width: 100%;
 }
 .forms{
-  margin-left: 15px;
+  margin: auto 15px;
   padding-left: 10px;
   font-family: sans-serif;
 }
@@ -108,5 +108,10 @@ section {
   }
   .mainPanel {
       margin-bottom: 50px;
+  }
+}
+@media (max-width: 960px){
+  .forms{
+    size="100"
   }
 }

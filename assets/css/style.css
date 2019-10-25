@@ -110,8 +110,3 @@ section {
       margin-bottom: 50px;
   }
 }
-@media (max-width: 960px){
-  .forms{
-    size="100"
-  }
-}
